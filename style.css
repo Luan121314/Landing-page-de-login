@@ -1,0 +1,59 @@
+html{
+    width: 100%;
+    height: 100%;
+    background: url(imagens/bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formulario{
+    width: 21%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f5f5dc8c;
+    box-shadow: 1px 1px 10px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#formulario > p{
+    font-size: 25pt;
+    margin: 0;
+}
+#formulario > form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.campo > input{
+    all: unset;
+    background-color: aliceblue;
+    margin: 7px 0 0 7px;
+    height: 25px;
+}
+form > a{
+    text-decoration: none;
+    margin: 5px 0;
+    text-align: right;
+    color: rgb(143, 123, 85);
+}
+form > input{
+    all: unset;
+    background-color: orange;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(122, 80, 0);
+    margin: 7px 0 00;
+    font-size: 17pt;
+}
